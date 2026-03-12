@@ -1,5 +1,4 @@
 <?php
-require_once __DIR__ . '/../../traits/MovieInfoTrait.php';
 
 interface MoviesInterface
 {

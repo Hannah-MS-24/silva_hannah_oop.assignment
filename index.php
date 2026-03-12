@@ -1,5 +1,4 @@
 <?php
-<<<<<<< Updated upstream
 require_once "traits/MovieInfoTrait.php";
 
 spl_autoload_register(function($className) {
@@ -8,7 +7,7 @@ spl_autoload_register(function($className) {
         require_once $file;
     }
 });
-=======
+
 require_once __DIR__ . "/traits/MovieInfoTrait.php";
 require_once __DIR__ . "/includes/classes/Movies.php";
 require_once __DIR__ . "/includes/classes/Comedy.php";
@@ -19,7 +18,7 @@ require_once __DIR__ . "/includes/classes/Romantic.php";
 require_once __DIR__ . "/includes/classes/Romcon.php";
 require_once __DIR__ . "/includes/classes/TeenRomance.php";
 require_once __DIR__ . "/includes/classes/Documentary.php";
->>>>>>> Stashed changes
+
 
 function showMovieInfo(Movies $movie)
 {

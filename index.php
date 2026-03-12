@@ -27,4 +27,4 @@ function showMovieInfo(Movies $movie)
 $movie1 = new DarkComedy();
 $movie1->title = "Funny Shadows";
 $movie1->year = 2005;
-$movie1->duration
+$movie1->duration;
